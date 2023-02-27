@@ -49,4 +49,4 @@ else:
     hero_traits[new_index] = epic_trait
     hero_trait_dict["RaritySuperBoost"] = {1.0: epic_trait}
 
-loaded_save.to_file(save_path)
+loaded_save.to_file(save_path / "Profile1_Temp.sav")
